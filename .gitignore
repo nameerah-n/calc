@@ -1,0 +1,21 @@
+#ignore the node_modules directory
+/node_modules
+/typescript
+
+#ignore any built typescript files (javascript outputs)
+/directory
+
+# Ignore development or editor-specific files
+.vscode/
+.idea/
+.DS_Store/
+
+# Ignore compiled TypeScript files
+*.js
+*.js.map
+
+# Ignore TypeScript definition files (if using TypeScript definitions)
+*.d.ts
+
+# Ignore Node.js build directories
+/node_modules/
